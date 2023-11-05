@@ -14,6 +14,7 @@
 		E5754C232AF77C5E009DD815 /* Spark_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5754C222AF77C5E009DD815 /* Spark_FinalTests.swift */; };
 		E5754C2D2AF77C5E009DD815 /* Spark_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5754C2C2AF77C5E009DD815 /* Spark_FinalUITests.swift */; };
 		E5754C2F2AF77C5E009DD815 /* Spark_FinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5754C2E2AF77C5E009DD815 /* Spark_FinalUITestsLaunchTests.swift */; };
+		E5754C3C2AF77E19009DD815 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5754C3B2AF77E19009DD815 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		E5754C282AF77C5E009DD815 /* Spark_FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Spark_FinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5754C2C2AF77C5E009DD815 /* Spark_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spark_FinalUITests.swift; sourceTree = "<group>"; };
 		E5754C2E2AF77C5E009DD815 /* Spark_FinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spark_FinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E5754C3B2AF77E19009DD815 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		E5912AF62AF789EB00D0C871 /* Spark-Final-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Spark-Final-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +97,12 @@
 		E5754C102AF77C5D009DD815 /* Spark_Final */ = {
 			isa = PBXGroup;
 			children = (
+				E5912AF62AF789EB00D0C871 /* Spark-Final-Info.plist */,
 				E5754C112AF77C5D009DD815 /* Spark_FinalApp.swift */,
 				E5754C132AF77C5D009DD815 /* ContentView.swift */,
 				E5754C152AF77C5E009DD815 /* Assets.xcassets */,
 				E5754C172AF77C5E009DD815 /* Preview Content */,
+				E5754C3B2AF77E19009DD815 /* ContentViewModel.swift */,
 			);
 			path = Spark_Final;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5754C142AF77C5D009DD815 /* ContentView.swift in Sources */,
+				E5754C3C2AF77E19009DD815 /* ContentViewModel.swift in Sources */,
 				E5754C122AF77C5D009DD815 /* Spark_FinalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +426,8 @@
 				DEVELOPMENT_TEAM = F5SKW3QAUK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Spark-Final-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +457,8 @@
 				DEVELOPMENT_TEAM = F5SKW3QAUK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Spark-Final-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
