@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Spark_Final
 //
-//  Created by Avihhan Arya Kumarr on 11/5/23.
+//  Created by Avihhan Arya Kumarr and Vijay Wulfekuhle on 11/5/23.
 //
 
 import Combine
@@ -103,12 +103,14 @@ struct ContentView: View {
                     viewModel.checkIfLocationServicesIsEnabled()
                 }
 
-        }else {
-            Text("UNKNOWN")
-                .modifier(BigText())
-                .background(Color.gray)
-                .edgesIgnoringSafeArea(.all)
-        }
+            }
+//            else {
+//            Map(coordinateRegion: $viewModel.region, showsUserLocation: true)
+//                .ignoresSafeArea()
+//                .accentColor(Color(red: 234/255, green: 32/255, blue: 432/255))
+//                .onAppear {
+//                    viewModel.checkIfLocationServicesIsEnabled()
+//        }
     }
 }
 
